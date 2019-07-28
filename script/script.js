@@ -165,12 +165,6 @@ window.addEventListener('DOMContentLoaded', function() {
             }
 
             dot = document.querySelectorAll('.dot');
-            for(let item of dot) {
-                if(item == 0) {
-                    item.classList.add('dot-active');
-                }
-            }
-            return dot;
     };
     
     addDot();
